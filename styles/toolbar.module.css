@@ -1,0 +1,56 @@
+.toolbox{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    position: fixed;
+    right: 0px !important;
+    z-index: 9999;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    right: 0px;
+}
+
+.tittle{
+    font-size: 16pt;
+    color: blueviolet;
+}
+
+.titled{
+    font-size: 20pt ;
+    color: black ;
+}
+
+.choose{
+    font-size: 14px;
+    color: blueviolet;
+    margin: 10px;
+}
+
+.toolist{
+    border: 2px solid blueviolet;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.ulnobullets{
+    list-style-type: none;
+}
+
+.negative{
+    filter: invert(100%);
+}
+
+.grayscale{
+    filter: grayscale(100%);
+}
+
+.underlink{
+    text-decoration: none;
+}
+
+.none{
+    filter: none;
+}
